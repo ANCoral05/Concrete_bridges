@@ -11,21 +11,18 @@ body {
 
 .popup {
     position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); /* Center the popup */
-    width: 40%;  /* Adjust as needed for smaller size */
-    height: auto; /* Auto height to fit content */
-    background-color: rgba(0, 0, 0, 0.8); /* Slightly darker background */
+    top: 0;
+    left: 0;
+    width: 40%;
+    height: 40%;
+    background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px; /* Add border-radius for a smoother look */
-    padding: 20px; /* Add padding for content spacing */
 }
 
 .popup-content {
-    background-color: rgb(0, 0, 0);
+    background-color: white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
